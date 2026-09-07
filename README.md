@@ -1,16 +1,37 @@
-# React + Vite
+# Buzón CUC Escucha
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Micrositio web para recopilar ideas y sugerencias de los estudiantes de la Facultad de Ingeniería de la Corporación Universidad de la Costa (CUC).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🎯 Objetivo
 
-## React Compiler
+Mejorar la experiencia estudiantil en aspectos como:
+- Bienestar estudiantil
+- Servicios
+- Clases y docentes
+- Inclusión y diversidad
+- Espacios físicos
+- Procesos académicos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the Oxlint configuration
+- **React** - Biblioteca UI
+- **Tailwind CSS** - Estilos
+- **Vite** - Build tool
+- **Netlify** - Despliegue
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/gortizldev-collab/buzon-cuc-escucha.git
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
