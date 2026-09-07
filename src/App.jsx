@@ -19,6 +19,7 @@ export default function App() {
   const [formData, setFormData] = useState({
     nombre: '',
     correo: '',
+    telefono: '',
     aspecto: '',
     sugerencia: ''
   });
@@ -30,7 +31,7 @@ export default function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('¡Sugerencia enviada con éxito!');
-    setFormData({ nombre: '', correo: '', aspecto: '', sugerencia: '' });
+    setFormData({ nombre: '', correo: '', telefono: '', aspecto: '', sugerencia: '' });
   };
 
   // Función para desplazamiento suave a secciones
@@ -178,6 +179,18 @@ export default function App() {
                     name="correo"
                     placeholder="tu@estudiante.cuc.edu.co"
                     value={formData.correo}
+                    onChange={handleChange}
+                    className="w-full px-3.5 py-2.5 text-sm bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-[#A8001D] focus:ring-1 focus:ring-[#A8001D]"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-semibold text-gray-700 mb-1">Teléfono *</label>
+                  <input
+                    type="tel"
+                    name="telefono"
+                    placeholder="Tu número de teléfono"
+                    value={formData.telefono}
                     onChange={handleChange}
                     className="w-full px-3.5 py-2.5 text-sm bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-[#A8001D] focus:ring-1 focus:ring-[#A8001D]"
                     required
