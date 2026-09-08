@@ -260,10 +260,10 @@ export default function App() {
             <p className="font-bold text-sm text-white">Facultad de Ingeniería - CUC</p>
             <p className="text-red-100 text-[11px]">Más ideas, mejores experiencias.</p>
           </div>
+          
+          {/* Contenedor unificado para IG y FB */}
           <div className="flex justify-center md:justify-end space-x-4 text-red-100">
             <a href="https://www.instagram.com/ingenieriacuc/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">IG</a>
-          </div>
-          <div className="flex justify-center md:justify-end space-x-4 text-red-100">
             <a href="https://www.facebook.com/UniCostaCOL" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">FB</a>
           </div>
         </div>
