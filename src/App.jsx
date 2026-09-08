@@ -263,6 +263,9 @@ export default function App() {
           <div className="flex justify-center md:justify-end space-x-4 text-red-100">
             <a href="https://www.instagram.com/ingenieriacuc/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">IG</a>
           </div>
+          <div className="flex justify-center md:justify-end space-x-4 text-red-100">
+            <a href="https://www.facebook.com/UniCostaCOL" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">FB</a>
+          </div>
         </div>
 
         <div className="max-w-6xl mx-auto px-6 mt-6 flex flex-col md:flex-row justify-between items-center text-red-100 text-[11px] space-y-3 md:space-y-0">
